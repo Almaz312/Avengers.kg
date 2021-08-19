@@ -1,9 +1,6 @@
 .container {
-    min-height: 100vh;
-    height: 100vh;
     min-width: 320px;
     max-width: 1296px;
-    width: 100%;
     margin: 0 auto;
 }
 
@@ -68,10 +65,14 @@
     font-size: 17px;
     line-height: 40px;
     font-weight: 300;
-    padding: 40px;
+    padding: 30px 30px 250px 30px;
     background-color: #2575eb;
     border-radius: 15px;
     margin: 0;
+    background-image: url("../public/discussion_resize.png");
+    background-position: 400px 150px;
+    background-size: 400px;
+    background-repeat: no-repeat;
 }
 
 .blockSecond {
@@ -79,7 +80,7 @@
     font-size: 17px;
     line-height: 40px;
     font-weight: 300;
-    padding: 40px;
+    padding: 30px;
     background-color: #FF8C00;
     border-radius: 15px;
     margin: 0 0 0 20px;
@@ -98,6 +99,11 @@
     line-height: 44px;
     text-align: center;
     letter-spacing: 1px;
+}
+.advantageImg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .advantageTextBlock {
@@ -165,7 +171,7 @@
     display: flex;
     align-items: center;
     width: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .workTexts {
     margin-left: 25px;
@@ -203,6 +209,9 @@
     margin: 0;
     font-weight: 500;
     cursor: pointer;
+}
+.footer {
+    padding: 40px;
 }
 
 

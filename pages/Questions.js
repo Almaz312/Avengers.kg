@@ -3,7 +3,7 @@ import style from "../styles/Home.module.css";
 
 export default function Questions() {
     return (
-        <div>
+        <div className={style.container}>
             <h1 className={style.advantageText}>Вопросы & Ответы</h1>
             <div className={style.questionsBlock}>
                 <div className={style.questionsElem}>

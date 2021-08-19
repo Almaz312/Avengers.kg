@@ -1,3 +1,58 @@
 .application {
     display: flex;
+    background-color: #ED7F32;
+    padding: 30px 0;
+}
+.info {
+    width: 50%;
+    margin-left: 20px;
+}
+.infoTextH4 {
+    font-size: 32px;
+    margin: 0 0 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.infoTextH6{
+    color: #fff;
+    width: 460px;
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+}
+.btn {
+    background-color: #4BA455;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    border-radius: 4px;
+    border: 0;
+}
+.textArea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    border-radius: 4px;
+    border: 0;
+    overflow: auto;
 }
