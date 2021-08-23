@@ -1,9 +1,12 @@
 import style from "../styles/Home.module.css";
 
-export default function Resources() {
+export default function Resources(props) {
     return (
         <div>
-            <h1 className={style.advantageText}>Ресурсы и технологии</h1>
+            <h1 className={style.advantageText}
+                ref={props.commentResources}>
+                Ресурсы и технологии
+            </h1>
             <div className={style.resourcesBlock}>
                 <div className={style.container}>
                     <div className={style.resourcesBlock}>

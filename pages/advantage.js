@@ -2,11 +2,15 @@ import style from '../styles/Home.module.css'
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
 
-export default function Advantage() {
+export default function Advantage(props) {
     return (
         <div className={styles.container}>
+
             <div>
-                <h1 className={style.advantageText}>Преимущества аутстаффинга</h1>
+                <h1 className={style.advantageText}
+                    ref={props.commentSection}>
+                    Преимущества аутстаффинга
+                </h1>
                 <div className={style.advantage}>
                     <div>
                         <span className={styles.advantageImg}> <Image src="/full_control.jpeg" width={45} height={45}/></span>
@@ -26,7 +30,8 @@ export default function Advantage() {
                             проекту, разработчики cмогут тратить больше времени на доведение его до совершенства.</h6>
                     </div>
                     <div>
-                        <span className={styles.advantageImg}> <Image src="/best_price.jpeg" width={45} height={45}/></span>
+                        <span className={styles.advantageImg}> <Image src="/best_price.jpeg" width={45}
+                                                                      height={45}/></span>
                         <h3 className={style.advantageTextBlock}>Лучшие цены</h3>
                         <h6 className={style.advantageTextSecond}>Создание команды в другой стране - непростая задача,
                             если
@@ -36,7 +41,8 @@ export default function Advantage() {
                             вариант.</h6>
                     </div>
                     <div>
-                        <span className={styles.advantageImg}> <Image src="/flexibility.jpeg" width={45} height={45}/></span>
+                        <span className={styles.advantageImg}> <Image src="/flexibility.jpeg" width={45}
+                                                                      height={45}/></span>
                         <h3 className={style.advantageTextBlock}>Гибкость команды</h3>
                         <h6 className={style.advantageTextSecond}>Мы хотим, чтобы проекты росли и процветали.
                             Масштабировать
@@ -46,7 +52,8 @@ export default function Advantage() {
                             сокращать команду, проще и быстрее, чем с другими моделями.</h6>
                     </div>
                     <div>
-                        <span className={styles.advantageImg}> <Image src="/involvement.jpeg" width={45} height={45}/></span>
+                        <span className={styles.advantageImg}> <Image src="/involvement.jpeg" width={45}
+                                                                      height={45}/></span>
                         <h3 className={style.advantageTextBlock}>Вовлеченность в процесс найма </h3>
                         <h6 className={style.advantageTextSecond}>Аутстаффинг сохраняет преимущества классического
                             рекрутинга, но при этом избавляет вас от временных и финансовых затрат, связанных с поиском

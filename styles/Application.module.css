@@ -15,7 +15,7 @@
 }
 .infoTextH6{
     color: #fff;
-    width: 460px;
+    width: 68%;
     line-height: 25px;
     font-weight: 400;
     font-size: 14px;
@@ -29,6 +29,9 @@
     border-radius: 4px;
     color: #fff;
     letter-spacing: 1px;
+}
+.formBlock {
+    width: 55%;
 }
 .form {
     display: flex;
@@ -44,6 +47,7 @@
     margin-right: 20px;
     border-radius: 4px;
     border: 0;
+    font-size: 15px;
 }
 .textArea {
     display: block;
@@ -55,4 +59,7 @@
     border-radius: 4px;
     border: 0;
     overflow: auto;
+    min-height: 120px;
+    max-height: 220px;
+    font-size: 15px;
 }

@@ -211,7 +211,15 @@
     cursor: pointer;
 }
 .footer {
-    padding: 40px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerText {
+    color: #9EA0A3;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 

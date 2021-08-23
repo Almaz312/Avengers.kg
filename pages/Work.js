@@ -4,10 +4,13 @@ import '../styles/Home.module.css'
 import Image from "next/image";
 
 
-export default function Work() {
+export default function Work(props) {
     return (
         <div className={style.container}>
-            <h6 className={style.advantageText}>Как мы работаем ?</h6>
+            <h6 className={style.advantageText}
+                ref={props.commentWork}
+            >
+                Как мы работаем ?</h6>
             <div className={style.workBlockElem}>
                 <div className={style.workBlock}>
                     <Image src="/to-do-list.png" width={130} height={130}/>
