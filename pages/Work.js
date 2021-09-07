@@ -1,5 +1,5 @@
 import style from "../styles/Home.module.css";
-import "../styles/work.module.css"
+import "../styles/Work.module.css"
 import '../styles/Home.module.css'
 import Image from "next/image";
 
